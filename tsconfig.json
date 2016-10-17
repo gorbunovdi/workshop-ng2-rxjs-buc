@@ -1,0 +1,28 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"removeComments": false,
+		"noImplicitAny": false
+	},
+	"exclude": [
+		"web",
+		"node_modules"
+	],
+	"filesGlob": [
+		"./src/**/*.ts",
+		"!./node_modules/**/*.ts"
+	],
+	"awesomeTypescriptLoaderOptions": {
+		"resolveGlobs": true,
+		"forkChecker": true
+	},
+	"files": [
+		"src/main.d.ts"
+	]
+}

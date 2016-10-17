@@ -1,0 +1,8 @@
+{
+	"globalDependencies": {
+		"core-js": "registry:dt/core-js#0.0.0+20160725163759",
+		"jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#470954c4f427e0805a2d633636a7c6aa7170def8",
+		"materialize-css": "github:DefinitelyTyped/DefinitelyTyped/materialize-css/materialize-css.d.ts#530a95d68c6cec69f0ea6608f0055b0e06163624",
+		"zone.js": "github:gdi2290/typed-zone.js#66ea8a3451542bb7798369306840e46be1d6ec89"
+	}
+}

@@ -1,0 +1,11 @@
+<div class="card-panel">
+  <div>
+    <input placeholder="Your comment" [(ngModel)]="newComment.text" type="text" class="validate">
+  </div>
+  <div *ngIf="newComment.text.length">
+    <a (click)="sendComment()" class="waves-effect waves-light btn blue">
+      Send comment
+      <i class="material-icons right">send</i>
+    </a>
+  </div>
+</div>

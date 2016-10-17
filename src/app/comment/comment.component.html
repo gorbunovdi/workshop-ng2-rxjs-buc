@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col s4">
+    <comment-new></comment-new>
+  </div>
+  <div class="col s4" *ngFor="let comment of comments$ | async">
+    <comment-view [comment]="comment"></comment-view>
+  </div>
+</div>
