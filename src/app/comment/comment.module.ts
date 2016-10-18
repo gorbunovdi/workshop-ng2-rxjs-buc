@@ -6,6 +6,9 @@ import { CommentService } from './comment.service';
 import { CommentComponent } from './comment.component';
 import { CommentNewComponent } from './new/new.component';
 import { CommentViewComponent } from './view/view.component';
+import { CommentCounterComponent } from './counter/counter.component';
+import { CommentFilterComponent } from './filter/filter.component';
+import { CommentLatestComponent } from './latest/latest.component';
 
 @NgModule({
   imports: [
@@ -15,7 +18,10 @@ import { CommentViewComponent } from './view/view.component';
   declarations: [
     CommentComponent,
     CommentNewComponent,
-    CommentViewComponent
+    CommentViewComponent,
+    CommentCounterComponent,
+    CommentFilterComponent,
+    CommentLatestComponent,
   ],
   providers: [
     CommentService

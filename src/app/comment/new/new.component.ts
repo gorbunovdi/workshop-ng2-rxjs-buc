@@ -23,6 +23,6 @@ export class CommentNewComponent implements OnInit {
   }
 
   private resetNewComment(): void {
-    this.newComment = this.commentService.createEmptyComment();
+    this.newComment = {text: ''};
   }
 }

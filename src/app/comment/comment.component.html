@@ -1,5 +1,16 @@
 <div class="row">
   <div class="col s4">
+    <filter></filter>
+  </div>
+  <div class="col s2">
+    <counter></counter>
+  </div>
+  <div class="col s6">
+    <latest></latest>
+  </div>
+</div>
+<div class="row">
+  <div class="col s4">
     <comment-new></comment-new>
   </div>
   <div class="col s4" *ngFor="let comment of comments$ | async">
