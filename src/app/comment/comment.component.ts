@@ -14,6 +14,6 @@ export class CommentComponent {
   constructor(
     private commentService: CommentService
   ) {
-    this.comments$ = this.commentService.getFilteredComments$();
+    this.comments$ = this.commentService.getAllComments$();
   }
 }
