@@ -9,7 +9,6 @@ import { Comment} from '../comment.model';
 })
 export class CommentCounterComponent implements OnInit {
   private allCounter: number = 0;
-  private filteredCounter: number = 0;
 
   constructor(
     private commentService: CommentService
@@ -19,11 +18,6 @@ export class CommentCounterComponent implements OnInit {
     this.commentService.getAllComments$()
       .subscribe(
         (comments: Array<Comment>) => this.allCounter = comments.length
-      );
-
-    this.commentService.getFilteredComments$()
-      .subscribe(
-        (comments: Array<Comment>) => this.filteredCounter = comments.length
       );
   }
 }
